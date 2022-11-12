@@ -19,7 +19,9 @@ module.exports = {
   rules: {
     'prettier/prettier': 1,
     quotes: ['error', 'single'],
+    'no-console': 0,
     'no-var': 'error',
     'prefer-const': 'error',
+    semi: true,
   },
 };
